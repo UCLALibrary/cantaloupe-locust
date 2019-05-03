@@ -5,4 +5,4 @@
   connection: local
 
   roles:
-    - { role: cantaloupe-locust }
+    - { role: ansible-role }

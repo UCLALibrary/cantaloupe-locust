@@ -8,4 +8,5 @@
 - name: Install locust pip packages
   pip:
     name: "{{ pip_pkgs }}"
+    executable: pip3
     state: present
