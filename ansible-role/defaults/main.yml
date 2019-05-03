@@ -1,0 +1,7 @@
+---
+locust_dependency_pkgs:
+  - python3
+  - python3-pip
+
+pip_pkgs:
+  - locustio

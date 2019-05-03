@@ -1,0 +1,11 @@
+---
+
+- name: Install locust package dependencies
+  yum:
+    name: "{{ locust_dependency_pkgs }}"
+    state: present
+
+- name: Install locust pip packages
+  pip:
+    name: "{{ pip_pkgs }}"
+    state: present
